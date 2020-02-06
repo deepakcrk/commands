@@ -13,7 +13,7 @@ Put cursor on topmost zero, select column with Ctrl-v, then g Ctrl-a
 ```
 
 
-**Change Inside brackets: {}[]()**
+**Change Inside brackets**
 
 ```
 def foo(a, b, c, d, e)  -->  def foo()
@@ -36,5 +36,22 @@ void foo()                    void foo()
 ```
 Put cursor inside the bracket and type ci}
 ```
+
+**Change Around brackets**
+```
+def foo(a, b, c, d, e)  -->  def foo
+```
+```
+Put cursor inside the bracket and type ca(
+```
+```
+a = {a, b, c, d, e} ;  -->  a = ;
+```
+```
+Put cursor inside the bracket and type ca{
+```
+
+
+
 
 
